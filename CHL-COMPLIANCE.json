@@ -1,0 +1,73 @@
+{
+  "$schema": "https://contributiveheritage.org/schemas/chl-compliance-1.3.json",
+  "chl_version": "1.3",
+  "generated": "2026-03-02",
+  "program": {
+    "name": "Vapour",
+    "description": "A game engine written in C, C++ and Python, made for personal use but open for modification.",
+    "repository": "https://github.com/KiwiOnGit/Vapour",
+    "spdx_id": "LicenseRef-CHL-1.3"
+  },
+  "root_project": {
+    "name": "Vapour",
+    "repository": "https://github.com/KiwiOnGit/Vapour",
+    "note": "This IS the Root Project. It owes no upstream payments to anyone. All revenue-sharing payments from downstream forks flow upward to this project — but the sole contributor has filed an Opt-Out Declaration and is not currently accepting distributions. This may change; see opt_out_duration below."
+  },
+  "monetizing_party": null,
+  "heritage_chain": [
+    {
+      "level": 0,
+      "role": "root",
+      "project_name": "Vapour",
+      "repository": "https://github.com/KiwiOnGit/Vapour",
+      "derived_from": null,
+      "contributors": [
+        {
+          "name": "KiwiOnGit",
+          "contact": "https://github.com/KiwiOnGit",
+          "verification_method": "commit_history",
+          "verification_evidence": "https://github.com/KiwiOnGit/Vapour/commits/main",
+          "status": "opted_out",
+          "acceptance_date": null,
+          "opt_out": true,
+          "opt_out_date": "2026-03-02",
+          "opt_out_scope": ["receive", "impose"],
+          "opt_out_duration": "until_revoked_in_writing",
+          "opt_out_note": "Contributor does not wish to receive revenue-sharing distributions and does not wish to impose revenue-sharing payment obligations on direct downstream forks with respect to their share specifically. This opt-out does NOT prevent downstream forks from owing shares to other Accepting Contributors added to the Heritage Chain in the future. To revoke, KiwiOnGit must provide written notice — revocation takes effect the quarter following receipt."
+        }
+      ]
+    }
+  ],
+  "registered_fork_contributors": [],
+  "distribution_summary": null,
+  "safe_harbor_search": {
+    "completed": true,
+    "steps": {
+      "a_commit_log_query": {
+        "done": true,
+        "platforms_checked": ["github"],
+        "date": "2026-03-02",
+        "notes": "Single-contributor project. Sole contributor is KiwiOnGit per commit history at https://github.com/KiwiOnGit/Vapour/commits/main"
+      },
+      "b_contributor_outreach": {
+        "done": true,
+        "initial_contact_date": "2026-03-02",
+        "retry_30_day_date": null,
+        "notes": "Sole contributor is the project author. No external outreach required."
+      },
+      "c_public_notice": {
+        "done": true,
+        "channel": "https://github.com/KiwiOnGit/Vapour",
+        "posted_date": "2026-03-02",
+        "sixty_day_expiry": null,
+        "notes": "This CHL-COMPLIANCE.json is publicly available in the repository and constitutes the public notice."
+      },
+      "d_documented_in_this_file": true
+    }
+  },
+  "network_use": {
+    "deployed": false,
+    "corresponding_source_url": "https://github.com/KiwiOnGit/Vapour",
+    "note": "If Vapour or any Derivative Work is deployed as a hosted service, SaaS, or API, update this field and ensure the source URL remains publicly accessible."
+  }
+}

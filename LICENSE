@@ -1,0 +1,587 @@
+CONTRIBUTIVE HERITAGE LICENSE
+(CHL)
+
+Version 1.3
+
+Copyright (C) 2026 KiwiOnGit
+
+Everyone is permitted to copy and distribute verbatim copies of this license
+document, but changing it is not allowed.
+
+SPDX-License-Identifier: LicenseRef-CHL-1.3
+
+───────────────────────────────────────────────────────────────────────────────
+PREAMBLE
+───────────────────────────────────────────────────────────────────────────────
+
+This Contributive Heritage License ("CHL") v1.3 builds on the GNU Affero
+General Public License Version 3 (AGPL-3.0) and adds a heritage revenue-
+sharing mechanism so that every project and contributor in the Heritage Chain
+above a commercializing fork receives a proportional share of Revenue generated
+downstream.
+
+The Heritage Chain is modelled as a tree. The Root Project — Vapour — owes
+nothing to anyone. All payment flows UPWARD toward the root, not downward.
+Every Monetizing Party pays a share to all Verified Contributors at every
+level above them in the Heritage Chain, from their immediate upstream parent
+all the way to the Root Project.
+
+NOTE FOR VAPOUR: The sole contributor (KiwiOnGit) has filed an Opt-Out
+Declaration and is not currently accepting revenue-sharing distributions or
+imposing payment obligations on direct downstream forks with respect to their
+share. See CHL-COMPLIANCE.json for full details. This may be revoked in writing
+at any time.
+
+Participation in revenue sharing is voluntary. Any Verified Contributor may
+file an Opt-Out Declaration stating that they do not wish to receive revenue
+shares, do not wish to impose revenue-sharing obligations on their downstream
+forks, or both. An opted-out contributor is skipped in the payment chain
+without affecting distributions owed to others.
+
+Revenue-sharing acceptance operates on an individual basis. A contributor who
+does not accept forfeits only their own share; that share redistributes pro
+rata among Accepting Contributors. No single contributor can block distributions
+owed to others.
+
+This License closes the network-services loophole: deploying the Program or
+any Derivative Work over a network — as SaaS, PaaS, API, or any hosted form —
+triggers the same source-availability and revenue-sharing obligations as
+physical distribution.
+
+───────────────────────────────────────────────────────────────────────────────
+TERMS AND CONDITIONS
+───────────────────────────────────────────────────────────────────────────────
+
+
+0. DEFINITIONS
+
+"This License" means CHL v1.3, incorporating AGPL-3.0 by reference plus the
+provisions herein.
+
+"The Program" means any copyrightable work licensed under this License.
+
+"You" means each licensee.
+
+"Root Project" means the original Program at the topmost level of the Heritage
+Chain. The Root Project has no upstream payment obligations. For this project,
+the Root Project is Vapour.
+
+"Upstream Project" means any ancestor in the Heritage Chain above the current
+work.
+
+"Heritage Chain" means the Root Project and all identifiable Upstream Projects
+forming a continuous lineage of derivation.
+
+"Verified Contributor" means any individual or organization who has made
+substantive contributions to the Root Project or any Upstream Project, as
+evidenced by commit history, copyright notices, or explicit attribution.
+
+"Substantial Improvement" means an addition to a Derivative Work that (a) adds
+materially new functionality not present in any Upstream Project, (b) comprises
+at least five percent (5%) of the codebase by meaningful lines of code, or (c)
+is designated as a Substantial Improvement by written agreement of existing
+Accepting Contributors in the Heritage Chain. Cosmetic changes, reformatting,
+and dependency updates do not qualify.
+
+"Registered Fork Contributor" means the author of a Derivative Work who has
+(a) made a Substantial Improvement and (b) registered that improvement in the
+public Heritage Chain Registry under Section 3.7. Registered Fork Contributors
+are eligible to receive revenue shares from their own downstream Monetizing
+Parties.
+
+"Monetizing Party" means any licensee who generates Revenue from the Program
+or a Derivative Work.
+
+"Net Revenue" means gross receipts attributable to the Program or Derivative
+Work, less: (a) documented third-party payment-processing fees actually paid;
+(b) sales taxes, VAT, and equivalent taxes collected and remitted to government
+authorities; (c) documented refunds and chargebacks. No other deductions are
+permitted.
+
+"Revenue" means Net Revenue as defined above.
+
+"Attributable Revenue" means Revenue determined to be attributable to the
+Program or Derivative Work under Section 3.5.
+
+"Commercial Use" means any use resulting in Revenue, including Network Use.
+
+"Derivative Work" means any modification, enhancement, fork, or derivative of
+the Program.
+
+"Network Use" means making the Program or Derivative Work available to third
+parties over a computer network, including SaaS, PaaS, API, and hosted
+deployments.
+
+"Corresponding Source" means all source code needed to generate, install, and
+run the Program or Derivative Work, including build scripts and server-side
+application code used in Network Use.
+
+"Accepting Contributor" means a Verified Contributor or Registered Fork
+Contributor who has provided explicit written acceptance per Section 4.5 and
+has not filed an Opt-Out Declaration under Section 4.6.
+
+"Opt-Out Declaration" means a written notice filed under Section 4.6.
+
+"De Minimis Threshold" means five hundred US dollars (USD $500) of Attributable
+Revenue in a calendar quarter. Revenue-sharing obligations do not arise until
+the Monetizing Party's Attributable Revenue exceeds this threshold.
+
+"CHL Compliance File" means the single machine-readable CHL-COMPLIANCE.json
+file described in Section 6.1 that consolidates all required metadata.
+
+
+1. AGPL-3.0 FOUNDATION
+
+All provisions of AGPL-3.0 are incorporated herein by reference and apply in
+full, including: source code availability; rights to modify and create
+Derivative Works; copyleft (all Derivative Works must be licensed under CHL);
+network interaction clause (Network Use triggers source availability); warranty
+disclaimers; patent provisions; and termination conditions.
+
+
+2. OPEN SOURCE REQUIREMENT
+
+2.1 Absolute Open Source Obligation
+
+The Program and all Derivative Works must remain open source under CHL at all
+times and in all forms. This obligation cannot be waived by contract, payment,
+settlement, or any other instrument.
+
+2.2 Network Services Are Distribution
+
+Deploying the Program or a Derivative Work for Network Use constitutes
+"distribution" for all purposes under this License and triggers all source
+availability, licensing, and revenue-sharing obligations.
+
+2.3 No Dual Licensing
+
+You may not offer proprietary, closed-source, or non-CHL versions of the
+Program or Derivative Works. However: an author who has not yet licensed any
+version of their work under CHL may choose to do so prospectively — once any
+version is released under CHL, all future versions and Derivative Works of that
+work must remain under CHL.
+
+2.4 No Technological Restrictions
+
+You may not impose DRM, license-key enforcement, obfuscation, or any technical
+measure that restricts users from exercising rights granted by this License.
+
+2.5 Employment Agreements and EULAs — Scope Clarification
+
+This License renders unenforceable only those provisions of other agreements
+that directly restrict a party's exercise of rights expressly granted by this
+License. Provisions of other agreements addressing matters unrelated to rights
+granted by this License remain fully enforceable.
+
+2.6 Anti-Circumvention
+
+You may not use corporate structures, subsidiaries, copyright assignment, or
+any other legal mechanism to circumvent the obligations of this License.
+
+2.7 Severability of Open Source Obligation
+
+If a court holds any specific sub-provision of Section 2 invalid, that sub-
+provision shall be reformed or severed; the remaining sub-provisions of Section
+2 shall continue in full force. If a court holds all of Section 2 invalid in a
+particular jurisdiction, then in that jurisdiction: (a) You may continue to use
+the Program under AGPL-3.0 alone, but (b) all revenue-sharing rights and
+obligations under this License are suspended in that jurisdiction until a valid
+open-source requirement can be enforced.
+
+2.8 Violation Consequences
+
+Violation of Section 2 triggers the cure period under Section 12.1 before any
+rights are terminated.
+
+
+3. REVENUE-SHARING MECHANISM
+
+3.1 Mandatory Revenue Sharing — Pay Upward
+
+When a Monetizing Party's Attributable Revenue exceeds the De Minimis
+Threshold in a calendar quarter, they must distribute a revenue share to all
+Accepting Contributors at every level above them in the Heritage Chain. Payment
+flows upward through the tree only. THE ROOT PROJECT (VAPOUR) OWES NO REVENUE
+SHARES TO ANYONE.
+
+3.2 Downstream Forks Excluded — Except Registered Fork Contributors
+
+A Monetizing Party does not pay revenue shares to any project or contributor
+below them in the Heritage Chain, EXCEPT that Registered Fork Contributors
+(Section 3.7) are eligible to receive shares from their own downstream
+Monetizing Parties.
+
+3.3 Default Sharing Percentage
+
+The default sharing percentage is ONE PERCENT (1%) of Attributable Revenue per
+quarter. This applies unless modified by mutual written agreement of all
+Accepting Contributors in the Heritage Chain.
+
+3.4 Distribution Formula
+
+Individual Share = (Attributable Revenue x 1%) / (Total Accepting Contributors
+above this project)
+
+Opted-out and non-participating contributors are excluded from the denominator.
+
+3.5 Attribution of Revenue for Bundled Products
+
+Where the Program is one component of a larger product, Attributable Revenue
+is determined using one of:
+
+  Method A — Direct Attribution: identify specific revenue streams directly
+  generated by the component.
+
+  Method B — Safe Harbor Apportionment: multiply total product Revenue by the
+  ratio of (lines of code in the CHL component) to (total lines of code in the
+  product), excluding auto-generated code, tests, and third-party libraries.
+  Application of this method in good faith with documented inputs creates a
+  safe harbor against liability for underreporting.
+
+  Method C — Negotiated Rate: a fixed amount or percentage negotiated in
+  writing with a supermajority (two-thirds) of Accepting Contributors, reviewed
+  annually.
+
+3.6 Subsidiary and Affiliate Revenue
+
+Revenue of a subsidiary or affiliate is included only if: (a) the subsidiary
+directly uses the Program to generate that revenue; and (b) the Monetizing
+Party controls or consolidates the subsidiary's financial statements.
+
+3.7 Registered Fork Contributor
+
+A contributor who has made a Substantial Improvement may register by:
+(a) submitting a written registration to the Heritage Chain Registry;
+(b) providing explicit acceptance of this License per Section 4.5; and
+(c) having the registration confirmed by at least one existing Accepting
+Contributor, or, failing such confirmation within sixty (60) days, by
+uncontested publication in the Registry.
+
+3.8 Distribution Schedule
+
+Distributions must be made quarterly, within forty-five (45) days after the
+close of each calendar quarter in which Attributable Revenue exceeds the De
+Minimis Threshold.
+
+3.9 Record Keeping
+
+The Monetizing Party shall maintain complete, accurate records of all Revenue
+and distributions for no fewer than seven (7) years, available for audit by any
+Accepting Contributor within thirty (30) days of written request.
+
+
+4. OPT-OUT, INDIVIDUAL FORFEITURE, AND ACCEPTANCE
+
+4.1 Voluntary Participation
+
+Participation in revenue sharing is entirely voluntary. Any Verified Contributor
+may file an Opt-Out Declaration at any time. An opted-out contributor receives
+no distributions and imposes no revenue-sharing payment obligation on their
+direct downstream forks with respect to that contributor's share specifically.
+
+4.2 Opt-Out Does Not Break the Chain
+
+An opted-out contributor's position in the Heritage Chain is skipped for
+revenue-sharing purposes only. Downstream forks still owe revenue shares to all
+Accepting Contributors above the opted-out contributor.
+
+4.3 No All-or-Nothing Rule
+
+THIS LICENSE CONTAINS NO ALL-OR-NOTHING PROVISION. If a contributor does not
+accept or cannot be contacted, only that contributor's share is withheld and
+redistributed pro rata among all other Accepting Contributors. No single
+contributor's refusal or non-response can block distributions owed to others.
+
+4.4 Default Status
+
+A contributor who has neither accepted nor opted out is "non-participating" and
+receives no distributions. The Monetizing Party must document outreach attempts
+per Section 5.3 but is not in breach if a contributor remains non-responsive
+after documented good-faith efforts.
+
+4.5 Acceptance Mechanism
+
+Acceptance must be: (a) in writing or digitally recorded with a verifiable
+timestamp; (b) explicitly referencing the Program by name and "CHL v1.3";
+(c) retained by the Monetizing Party; and (d) available to any Accepting
+Contributor upon request.
+
+4.6 Opt-Out Declaration
+
+To opt out, a contributor files a written declaration identifying themselves,
+the Program(s), the scope of opt-out (receiving, imposing, or both), and
+duration. A contributor may revoke at any time; revocation takes effect for
+distributions in the quarter following receipt of notice. No retroactive
+distributions are owed for periods of opt-out.
+
+
+5. HERITAGE CHAIN TREE — STRUCTURE AND OBLIGATIONS
+
+5.1 Tree Model
+
+  Root (Vapour): Owes nothing. Receives shares from all downstream Monetizing
+  Parties — subject to any Opt-Out Declaration filed by Root contributors.
+
+  Branches: Each branch pays all Accepting Contributors above it, up to and
+  including the Root.
+
+  Registered Fork Contributors: Eligible to receive shares from all Monetizing
+  Parties at or below their level.
+
+5.2 Illustrative Example
+
+Heritage Chain: Vapour (Root) -> Fork A -> Fork B -> Fork C (Monetizing Party).
+
+  Fork C pays Accepting Contributors in: Fork B, Fork A, and Vapour.
+  Fork C does NOT pay any project below Fork C.
+  If Fork B has opted out, Fork C still pays Fork A and Vapour.
+  If Vapour's contributor has opted out (as they currently have), Fork C owes
+    no share to Vapour's contributor specifically — but would owe shares to any
+    other Accepting Contributors added to the Heritage Chain in the future.
+  Vapour (Root) owes no shares to anyone.
+
+5.3 Multiple Upstream Projects
+
+Where a Derivative Work merges code from multiple Upstream Projects, all
+Accepting Contributors across all merged upstream branches are included in the
+distribution formula.
+
+
+6. COMPLIANCE — SIMPLIFIED METADATA AND SAFE HARBOR SEARCH
+
+6.1 Single Compliance File
+
+Every distribution or Network Use deployment must include a CHL-COMPLIANCE.json
+file at the project root. This single file must contain:
+  (a) license version ("CHL v1.3");
+  (b) Root Project name and identifier;
+  (c) Heritage Chain entries with contributor names, verification method, and
+      acceptance/opt-out/registered status;
+  (d) Monetizing Party contact information (if applicable);
+  (e) for Network Use: URL where Corresponding Source is publicly available.
+
+Human-readable summaries (HERITAGE-CHAIN.md, CONTRIBUTORS.md) are recommended
+but not required; failure to include them is not a breach so long as
+CHL-COMPLIANCE.json is present and accurate.
+
+6.2 Per-File Notice
+
+Every file in the Program should contain:
+
+  SPDX-License-Identifier: LicenseRef-CHL-1.3
+  Copyright (C) 2026 KiwiOnGit
+  Source: https://github.com/KiwiOnGit/Vapour
+
+6.3 Safe Harbor Search Procedure
+
+The Monetizing Party's obligation to identify Verified Contributors is satisfied
+— and no breach can be based on failure to identify a contributor — if the
+Monetizing Party completes and documents the following steps:
+  (a) queries the commit log of all public repositories hosting the Program and
+      Upstream Projects for contributor names and contact details;
+  (b) contacts all contributors with discoverable contact information at least
+      once and retries at thirty (30) days;
+  (c) publishes a public notice in the primary community channel of the Program
+      for at least sixty (60) days; and
+  (d) documents steps (a)-(c) in the CHL-COMPLIANCE.json file.
+
+A contributor not discoverable after these steps is treated as non-
+participating. No further search obligation arises unless the contributor later
+self-identifies.
+
+6.4 Automatic Tooling
+
+The maintainers of this License shall endeavor to maintain open-source tooling
+that automates generation of CHL-COMPLIANCE.json from standard version control
+repositories. Use of such tooling constitutes a rebuttable presumption of
+compliance with Sections 6.1 and 6.3.
+
+
+7. DISPUTE RESOLUTION AND ADMINISTRATION
+
+7.1 Heritage Chain Registry
+
+The Monetizing Party must maintain or contribute to a public registry containing
+the information in CHL-COMPLIANCE.json, including acceptance/opt-out status and
+registered fork contributions.
+
+7.2 Notification Requirements
+
+Upon initiating Commercial Use, the Monetizing Party shall, within thirty (30)
+days: notify all identified Verified Contributors; provide an explanation of the
+Revenue arrangement and this License; provide acceptance and opt-out forms; and
+establish a contact mechanism.
+
+7.3 Disputes
+
+Disputes shall be resolved through: (1) good-faith negotiation for at least
+thirty (30) days; (2) mediation by a mutually-agreed neutral party; (3) binding
+arbitration under JAMS International Arbitration Rules, ICC Rules, or equivalent
+mutually agreed rules. Parties are encouraged to agree in advance on an arbitral
+seat convenient to both parties.
+
+7.4 International Enforcement
+
+Any arbitral award rendered under Section 7.3 may be enforced in any
+jurisdiction that is a signatory to the 1958 New York Convention on the
+Recognition and Enforcement of Foreign Arbitral Awards.
+
+
+8. MODIFICATION AND DERIVATIVE WORKS
+
+8.1 Copyleft Preservation
+
+All Derivative Works must be licensed under CHL v1.3 or a later version.
+Closed-source derivatives are prohibited.
+
+8.2 License Propagation
+
+Distribution of any Derivative Work requires: full CHL v1.3 license text or a
+URL to it; all original copyright notices; new copyright notices for
+modifications; an updated CHL-COMPLIANCE.json; and a prominent notice of
+modifications and their date.
+
+8.3 No Detachment from Heritage Chain
+
+You may not remove, obscure, or disclaim any Upstream Project from the Heritage
+Chain.
+
+8.4 Downstream Contribution Incentive
+
+Contributors to Derivative Works are encouraged to register as Registered Fork
+Contributors under Section 3.7 to ensure they can receive revenue shares from
+their own downstream Monetizing Parties.
+
+
+9. PATENT GRANT
+
+Each contributor grants a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable patent license limited to patent claims necessarily
+infringed by their contribution. If You institute patent litigation alleging the
+Program constitutes patent infringement, all patent licenses granted to You
+under this License terminate as of the filing date.
+
+
+10. NO ADDITIONAL RESTRICTIONS
+
+You may not impose restrictions beyond those in this License on the exercise of
+granted rights, including additional fees, field-of-use restrictions, or
+geographic restrictions.
+
+
+11. WARRANTIES AND DISCLAIMERS
+
+THE PROGRAM IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL ANY
+CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
+WITH THE PROGRAM OR THE USE OR OTHER DEALINGS IN THE PROGRAM.
+
+
+12. TERMINATION — CURE BEFORE TERMINATION
+
+12.1 Cure Period Replaces Automatic Termination
+
+Rights under this License do NOT terminate automatically upon a violation. Upon
+any breach:
+  (a) The discovering party delivers written notice of the specific breach;
+  (b) The breaching party has ninety (90) days from receipt of notice to cure;
+  (c) If cured within ninety (90) days, no termination occurs;
+  (d) If not cured, rights terminate automatically at the end of that period.
+
+This cure-before-termination rule applies to all violations except willful
+repeated violations where the same breach has been cured and re-committed within
+a twelve (12) month period, in which case automatic termination applies upon the
+second occurrence.
+
+12.2 Effect of Termination
+
+Upon termination: cease all distribution and Network Use; complete all pending
+revenue-sharing distributions; retain records for seven (7) years.
+
+12.3 Reinstatement
+
+Rights may be reinstated by curing all outstanding violations and providing
+written notice of cure to the party who issued the breach notice.
+
+
+13. ACCEPTANCE AND ENTRY INTO FORCE
+
+By copying, distributing, modifying, deploying for Network Use, or otherwise
+using the Program, each licensee accepts all terms of this License.
+
+
+14. SEVERABILITY
+
+If any provision of this License is held invalid, it shall be reformed to the
+minimum extent necessary. If any sub-provision of Section 2 is held invalid,
+Section 2.7 governs. No invalidity of any other provision affects the validity
+of Section 2 as a whole.
+
+
+15. FUTURE VERSIONS
+
+The maintainers of this License may publish new versions of CHL. You may
+distribute the Program under any version published by the maintainers. If the
+Program specifies "CHL v1.3 or any later version," You may choose any such
+version.
+
+
+16. GOVERNING LAW AND DISPUTE FORUM
+
+This License is governed by the laws of the jurisdiction in which the
+Monetizing Party is domiciled, without regard to conflict-of-law principles,
+except that arbitral proceedings under Section 7.3 may be seated in any
+mutually agreed jurisdiction. The parties agree that the United Nations
+Convention on Contracts for the International Sale of Goods does not apply.
+
+
+───────────────────────────────────────────────────────────────────────────────
+APPENDIX A: HOW TO APPLY THESE TERMS
+───────────────────────────────────────────────────────────────────────────────
+
+Add the following notice to the top of each source file:
+
+  SPDX-License-Identifier: LicenseRef-CHL-1.3
+  Copyright (C) 2026 KiwiOnGit
+  Source: https://github.com/KiwiOnGit/Vapour
+
+Place CHL-COMPLIANCE.json at the project root. That is the only required
+metadata file.
+
+
+───────────────────────────────────────────────────────────────────────────────
+APPENDIX B: OPT-OUT DECLARATION — ON FILE FOR VAPOUR
+───────────────────────────────────────────────────────────────────────────────
+
+The following Opt-Out Declaration is in effect for Vapour as of 2026-03-02:
+
+  Contributor Name:    KiwiOnGit
+  Contact:             https://github.com/KiwiOnGit
+  Date:                2026-03-02
+  Program:             Vapour (https://github.com/KiwiOnGit/Vapour)
+
+  Scope of Opt-Out:
+    [x] I do not wish to RECEIVE revenue-sharing distributions.
+    [x] I do not wish my downstream forks to OWE revenue shares to me
+        specifically.
+
+  Duration:            Until revoked in writing.
+
+  Signature:           KiwiOnGit (via CHL-COMPLIANCE.json, 2026-03-02)
+
+This opt-out does not affect the obligation of downstream forks to pay all
+other Accepting Contributors above KiwiOnGit in the Heritage Chain. Should
+any additional contributors join the Heritage Chain in the future and accept
+this License, downstream Monetizing Parties will owe shares to those
+contributors regardless of this opt-out.
+
+To revoke this opt-out, KiwiOnGit must provide written notice. Revocation
+takes effect for distributions covering the calendar quarter following the
+quarter in which notice is received.
+
+
+───────────────────────────────────────────────────────────────────────────────
+END OF TERMS AND CONDITIONS
+───────────────────────────────────────────────────────────────────────────────
