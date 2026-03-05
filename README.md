@@ -16,6 +16,42 @@ Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar
 ## Description
 Vapour is a personal project that i have started working on, and it's currently in its infancy with almost nothing added/implemented, but that's soonly changing as I'll be committing to this. I made it open source so that anybody who wants to use it can freely. the engine and the game are going to be the same thing under the hood, think of the under the hood engine like this, the engine and the game are tightly interwined, the same at that. currently its only opengl but vulkan support will be after i get stable fast renderering with opengl.
 
+
+# Roadmap
+
+
+## Roadmap Phases!
+
+### Phase 1: Foundation (Current)
+Status: Infancy / Pre-Alpha
+Core engine implementation in C and C++.
+Basic Python 3 scripting integration.
+Stable OpenGL rendering pipeline.
+"Boring stuff first" architecture strategy. 
+
+
+
+### Phase 2: Next Gen Rendering
+Status: Planned
+Implementation of Vulkan API support.
+Migration from experimental to stable rendering. 
+advanced input, more than just keyboard/mouse button clicks
+early level editor
+3d model, audio and video support
+basic physics system
+gui system
+
+
+
+### Phase 3: Production Tools
+Status: Future 
+Game export and compilation tools.
+Visual Studio and Rider IDE support.
+Full "fun stuff" feature set (Asset management, Level editor). 
+improve early phase 2 stuff
+
+
+
 ## Installation
 
 Instructions for installing vapour,
