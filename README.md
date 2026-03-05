@@ -18,7 +18,7 @@ Vapour, a custom engine built in C, C++ and Python 3 that is made to be similar 
 
 ## Description
 
-Vapour is a personal project that i have started working on and its currently in its infancy with almost nothing added/implemented but thats soonly changing as i'll be committing to this. i made it open source so that anybody who wants to use it can freely, the license is for the engine not exports. thus meaning that your software(s) and/or game(s) exported can stay private. any modifications to the engine must be committed freely online. 
+Vapour is a personal project that i have started working on and its currently in its infancy with almost nothing added/implemented but thats soonly changing as i'll be committing to this. i made it open source so that anybody who wants to use it can freely. the engine and the game are going to be the same thing under the hood, think of the under the hood engine model and before i clarify no this is not in licensing terms, just how it will work under the hood like hl2 and how most source games after it were using hl2 source code under the hood, like a mod of it, thats why source is often called the hl2 engine.
 
 ## Installation
 
@@ -63,36 +63,51 @@ compiling the engine and exporting software/games are not currently supported, s
 
 Welcome to Vapour! We're excited that you want to contribute.
 
-Reporting Bugs: Create a new GitHub issue with clear steps to reproduce, expected behavior, and actual behavior.
-Proposing Changes/Features: Open an issue first to discuss major changes or enhancements before starting work.
-Code Contributions: Fix bugs, add features, or optimize performance.
+Reporting Bugs: Create a new GitHub issue with clear steps to reproduce, expected behavior, and actual behavior.  
+Proposing Changes/Features: Open an issue first to discuss major changes or enhancements before starting work.  
+Code Contributions: Fix bugs, add features, or optimize performance.  
 Documentation: Improve our guides, tutorials, or README files.
 
-Fork the Vapour repository to your GitHub account.
-Clone your fork to your local machine.
-Set up your environment: Follow the README.md instructions to install dependencies and ensure the project runs correctly before making changes. Vapour uses C, C++, and Python.
-Create a branch: <mark>git checkout -b Vapour</mark>
+Fork the Vapour repository to your GitHub account.  
+Clone your fork to your local machine.  
+Set up your environment: Follow the README.md instructions to install dependencies and ensure the project runs correctly before making changes. Vapour uses C, C++, and Python.  
+Create a branch: <mark>git checkout -b Vapour</mark>  
 Do note that you can change the name of your branch from vapour to anything, maybe try <mark>git checkout -b Cheesepuffs</mark>
 
 ## License 
 
-This project is licensed under the terms of the **GNU General Public License version 3** (GPL-3.0) or any later version.
+This project is licensed under the terms of the **MIT License**.
 
-You should have received a copy of the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html) along with this program. If not, see the [GNU website](https://www.gnu.org/licenses/) for more details.
+You should have received a copy of the MIT License along with this program.
 
 ***
 
 ### A Note on Licensing:
-some parts of the vapour engine may not use gpl 3.0 in the future, ill do my best to add said code and components here.
+some third party made dependencys of the vapour engine may not use the same license, for ease of knowing them i'll do my best to add said code and components here.
 
-*   **Third-Party Components:** 
-GLEW (The OpenGL Extension Wrangler Library): The GLEW source code is licensed under the Modified BSD License, the Mesa 3-D License (MIT), and the Khronos License (MIT) [1.1.1][1.1.2].
+*   **Third-Party Components:**  
+GLEW (The OpenGL Extension Wrangler Library): The GLEW source code is licensed under the Modified BSD License, the Mesa 3-D License (MIT), and the Khronos License (MIT) [1.1.1][1.1.2].  
 OpenGL: This project utilizes the OpenGL® Specification provided by the Khronos Group. OpenGL is a registered trademark of Hewlett Packard Enterprise.
 
 
-# CopyLeft
-[Vapour] - [a game/software engine written in, C, C++ and python]
+# MIT License
 
-Copyleft (C) [2026 March 4th] [Ely Wright]
+Copyright (c) 2026 Ely Wright
 
-The GNU General Public License (GPL) version 3.0 boilerplate header, which includes a notice of software freedom, warranty disclaimer, and licensing details, can be found on the Free Software Foundation website. 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
