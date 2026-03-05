@@ -24,21 +24,32 @@ Vapour is a personal project that i have started working on, and it's currently 
 
 ### Phase 1: Foundation (Current)
 Status: Infancy / Pre-Alpha
+
 Core engine implementation in C and C++.
+
 Basic Python 3 scripting integration.
+
 Stable OpenGL rendering pipeline.
+
 "Boring stuff first" architecture strategy. 
 
 
 
 ### Phase 2: Next Gen Rendering
 Status: Planned
+
 Implementation of Vulkan API support.
+
 Migration from experimental to stable rendering. 
+
 advanced input, more than just keyboard/mouse button clicks
+
 early level editor
+
 3d model, audio and video support
+
 basic physics system
+
 gui system
 
 
