@@ -94,7 +94,7 @@ some third party made dependencies of the vapour engine may not use the same lic
 **OpenGL: This project utilizes the OpenGL® Specification provided by the Khronos Group. OpenGL is a registered trademark of Hewlett Packard Enterprise.**
 
 
-**GLEW (The OpenGL Extension Wrangler Library): The GLEW source code is licensed under the Modified BSD License, the Mesa 3-D License (MIT), and the Khronos License (MIT).**
+**GLFW (Graphics Library Framework): The GLFW source code is licensed under the permissive zlib/libpng license, a BSD-like license that permits use in commercial applications and static linking with closed source software.**
 
 # MIT License
 
