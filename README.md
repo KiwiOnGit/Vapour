@@ -13,7 +13,7 @@ Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar
 *   [Contributing](#contributing)
 *   [License](#license)
 
-## I
+## Description
 Vapour is a personal project that i have started working on, and it's currently in its infancy with almost nothing added/implemented, but that's soonly changing as I'll be committing to this. I made it open source so that anybody who wants to use it can freely. the engine and the game are going to be the same thing under the hood, think of the under the hood engine like this, the engine and the game are tightly interwined, the same at that. currently its only opengl but vulkan support will be after i get stable fast renderering with opengl.
 
 ## Installation
