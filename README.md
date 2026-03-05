@@ -3,7 +3,7 @@ a game engine written in, C, C++ and python that was made for my personal game b
 
 # Project Title
 
-Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar lightweight, easily moddable and comparable in someways to the source and source 2 engines.
+Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar lightweight, easily moddable and comparable in someways to the source engine.
 
 ## Table of Contents
 
@@ -13,19 +13,18 @@ Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar
 *   [Contributing](#contributing)
 *   [License](#license)
 
-## Description
-
-Vapour is a personal project that i have started working on and its currently in its infancy with almost nothing added/implemented but thats soonly changing as i'll be committing to this. i made it open source so that anybody who wants to use it can freely. the engine and the game are going to be the same thing under the hood, think of the under the hood engine model and before i clarify no this is not in licensing terms, just how it will work under the hood like hl2 and how most source games after it were using hl2 source code under the hood, like a mod of it, thats why source is often called the hl2 engine.
+## I
+Vapour is a personal project that i have started working on, and it's currently in its infancy with almost nothing added/implemented, but that's soonly changing as I'll be committing to this. I made it open source so that anybody who wants to use it can freely. the engine and the game are going to be the same thing under the hood, think of the under the hood engine like this, the engine and the game are tightly interwined, the same at that. currently its only opengl but vulkan support will be after i get stable fast renderering with opengl.
 
 ## Installation
 
 Instructions for installing vapour,
 
 *   **Prerequisites:**
-    *   you need GCC for the C parts of the engine.
+    *   You need GCC for the C parts of the engine.
     *   you need G++ for the C++ parts of the engine.
-    *   you need Python3 for the Python parts of the engine.
-    *   you need Glew and Glfw
+    *   You need Python3 for the Python parts of the engine.
+    *   You need Glew and GLFW if using the opengl renderer
 *   **Steps:**
     1. simply fork the engine and place it someplace nice.
     2. Use a compatible IDE, currently that would be vscode. -im planning rider and visual studio support but for now its just vscode.
