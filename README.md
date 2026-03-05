@@ -50,7 +50,9 @@ Linux: - for linux you also need homebrew, or your pkg manager
       
 Windows:
       Downloads are here: 
+      
       **https://www.glfw.org/download**
+      
       **https://glew.sourceforge.net/**
 
 ## Usage
