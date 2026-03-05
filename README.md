@@ -69,6 +69,6 @@ OpenGL: This project utilizes the OpenGL® Specification provided by the Khronos
 
 
 # CopyLeft
-[Vapour] - [a game engine written in, C, C++ and python that was made for a personal game but can be modified into any other projects.]
-Copyright (C) [2026 March 4th] [Ely Wright]
+[Vapour] - [a game/software engine written in, C, C++ and python]
+Copyleft (C) [2026 March 4th] [Ely Wright]
 The GNU General Public License (GPL) version 3.0 boilerplate header, which includes a notice of software freedom, warranty disclaimer, and licensing details, can be found on the Free Software Foundation website. 
