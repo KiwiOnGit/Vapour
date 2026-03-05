@@ -34,11 +34,18 @@ Instructions for installing vapour,
     2. Use a compatible IDE, currently that would be vscode. -im planning rider and visual studio support but for now its just vscode.
     3. Open the projects root folder in your compatible IDE.
 
-commands:
+
+### Commands:
 Macos: - for mac you need to install homebrew, macports also works too.
       **brew install glew glfw**
+
+
+      
 Linux: - for linux you also need homebrew, or your pkg manager
       **brew install glew glfw**
+
+
+      
 Windows:
       Downloads are here: 
       **https://www.glfw.org/download**
