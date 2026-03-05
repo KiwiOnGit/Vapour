@@ -28,10 +28,21 @@ Instructions for installing vapour,
     *   you need GCC for the C parts of the engine.
     *   you need G++ for the C++ parts of the engine.
     *   you need Python3 for the Python parts of the engine.
+    *   you need Glew and Glfw
 *   **Steps:**
     1. simply fork the engine and place it someplace nice.
     2. Use a compatible IDE, currently that would be vscode. -im planning rider and visual studio support but for now its just vscode.
     3. Open the projects root folder in your compatible IDE.
+
+commands:
+Macos: - for mac you need to install homebrew, macports also works too.
+      **brew install glew glfw**
+Linux: - for linux you also need homebrew, although other methods of installing can work too.
+      **brew install glew glfw**
+Windows:
+      Downloads are here: 
+      **https://www.glfw.org/download**
+      **https://glew.sourceforge.net/**
 
 ## Usage
 
