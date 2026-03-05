@@ -38,22 +38,22 @@ Instructions for installing vapour,
 ### Commands:
 Macos: - for mac you need to install homebrew, macports also works too.
 
-      **brew install glew glfw**
+      brew install glew glfw
 
 
       
 Linux: - for linux you also need homebrew, or your pkg manager
 
-      **brew install glew glfw**
+      brew install glew glfw
 
 
       
 Windows:
       Downloads are here: 
       
-      **https://www.glfw.org/download**
+      https://www.glfw.org/download
       
-      **https://glew.sourceforge.net/**
+      https://glew.sourceforge.net/
 
 ## Usage
 
