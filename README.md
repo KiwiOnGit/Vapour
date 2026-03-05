@@ -74,7 +74,7 @@ Set up your environment: Follow the README.md instructions to install dependenci
 Create a branch: <mark>git checkout -b Vapour</mark>  
 Do note that you can change the name of your branch from vapour to anything, maybe try <mark>git checkout -b Cheesepuffs</mark>
 
-## License 
+# License 
 
 This project is licensed under the terms of the **MIT License**.
 
@@ -82,10 +82,12 @@ You should have received a copy of the MIT License along with this program.
 
 ***
 
-### A Note on Licensing:
+## A Note on Licensing:
 some third party made dependencies of the vapour engine may not use the same license, for ease of knowing them i'll do my best to add said code and components here.
 
-*   **Third-Party Components:**  
+### Third-Party Components:
+
+
 **GLEW (The OpenGL Extension Wrangler Library): The GLEW source code is licensed under the Modified BSD License, the Mesa 3-D License (MIT), and the Khronos License (MIT) [1.1.1][1.1.2].**
 
 
