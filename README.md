@@ -1,12 +1,9 @@
 # Vapour
 a game engine written in, C, C++ and python that was made for my personal game but can be modified into any other projects.
 
-
-
-
 # Project Title
 
-Vapour, a custom engine built in C, C++ and Python 3 that is made to be similar lightweight, easily moddable and comparable in someways to the source and source 2 engines.
+Vapour, a custom engine built in C, C++, and Python 3 that is made to be similar lightweight, easily moddable and comparable in someways to the source and source 2 engines.
 
 ## Table of Contents
 
@@ -34,18 +31,15 @@ Instructions for installing vapour,
     2. Use a compatible IDE, currently that would be vscode. -im planning rider and visual studio support but for now its just vscode.
     3. Open the projects root folder in your compatible IDE.
 
-
 ### Commands:
 Macos: - for mac you need to install homebrew, macports also works too.
 
       brew install glew glfw
 
-
       
 Linux: - for linux you also need homebrew, or your pkg manager
 
       brew install glew glfw
-
 
       
 Windows:
